@@ -1,6 +1,6 @@
 #define _GNU_SOURCE
 #include <unistd.h>		/* syscall */
-#include <sys/syscall.h>	/* STS_xxx definitions */
+#include <sys/syscall.h>	/* SYS_xxx definitions */
 #include <stdio.h>		/* printf, perror */
 #include <stdlib.h>		/* strtol */
 #include <linux/types.h>	/* __u32 ... etc */
