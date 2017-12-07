@@ -1,3 +1,3 @@
-This is the userspace portion of the bogo scheduler. To utilize the non-standard bogo scheduler, we must directly call the sched_setattr system call since the GNU and POSIX libraries don't know of the bogo sched policy. The methods in bogo.c are used to get and set the scheduler policy from userspace for a certain process.
+This is the userspace portion of the bogo scheduler. To utilize the non-standard bogo scheduler, we must directly call the sched_setattr system call since the GNU and POSIX libraries don't know of the bogo sched policy. The methods in bogofy.c are used to get and set the scheduler policy from userspace for a certain process.
 
 To see the kernel implementation of the bogo sched, see my bogo_scheduler repository
